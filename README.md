@@ -28,8 +28,8 @@ from the others, scored with the contest's pinball loss on the log scale:
 
 | pool | this program | persistence baseline |
 | --- | --- | --- |
-| all 37 launches | **0.427** | 0.930 |
-| hour 1 ≥ 100,000 viewers (16 launches) | **0.218** | 0.261 |
+| all 37 launches | **0.422** | 0.930 |
+| hour 1 ≥ 100,000 viewers (16 launches) | **0.216** | 0.261 |
 
 ## Running it
 
