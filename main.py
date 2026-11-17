@@ -11,7 +11,7 @@ difference, and the quantiles are the pooled launches' own.
 
 Backtested leave-one-out over the 37 usable comparables of a practice case (each launch
 forecast from the other 36, scored with the contest's pinball loss on the log scale), this
-scores 0.415 against the persistence baseline's 0.930 on the same pool, and 0.218 against
+scores 0.413 against the persistence baseline's 0.930 on the same pool, and 0.216 against
 0.261 among the sixteen launches whose hour 1 drew at least 100,000 viewers — the regime a
 Grand Theft Auto VI launch sits in.
 
@@ -34,7 +34,7 @@ LEVELS = [0.05, 0.25, 0.5, 0.75, 0.95]
 Z = [-1.645, -0.674, 0, 0.674, 1.645]
 # How fast a comparable's vote fades as its hour-1 size moves away from the case's,
 # in natural-log units: one e-fold of size difference costs one e-fold of weight.
-SIZE_FALLOFF = 1.0
+SIZE_FALLOFF = 0.9
 
 
 def round2(x: float) -> float | int:
